@@ -10,11 +10,11 @@ export default function Main() {
             Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div> */}
-        <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <div class="flex flex-col items-start">
+          <h1 class="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl">
             Turning Vision Into Reality With Code And Design.
           </h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
+          <p class="mt-6 text-lg text-left leading-8 text-gray-600">
             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
             Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
