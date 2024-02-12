@@ -8,11 +8,6 @@ export default function Main() {
         <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
       </div>
       <div class="mx-44 flex gap-x-20 items-center py-32 sm:py-48 lg:py-24">
-        {/* <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
-          </div>
-        </div> */}
         <Image src={profile} className="w-6/12" alt="profile"/>
         <div class="flex flex-col items-start">
           <h1 class="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl">
