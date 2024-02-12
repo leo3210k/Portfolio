@@ -16,7 +16,7 @@ export default function Main() {
           <p class="mt-6 text-lg text-left leading-8 text-gray-600">
             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
             Explore my latest projects and articles, showcasing my expertise in React.js and web development.
-            </p>
+          </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
             <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
               Resume
