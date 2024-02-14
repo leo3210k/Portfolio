@@ -7,9 +7,9 @@ export default function Main() {
       <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
         <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
       </div>
-      <div class="px-44 flex gap-x-20 items-center py-32 sm:py-48 lg:py-24">
-        <Image src={profile} className="w-6/12" alt="profile"/>
-        <div class="flex flex-col items-start">
+      <div class="px-24 flex justify-around items-center py-32 sm:py-48 lg:py-24">
+        <Image src={profile} className="w-4/12 h-auto" alt="profile"/>
+        <div class="w-5/12 flex flex-col items-start">
           <h1 class="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl">
             Turning Vision Into Reality With Code And Design.
           </h1>
