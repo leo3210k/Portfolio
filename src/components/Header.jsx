@@ -1,11 +1,14 @@
+import Image from 'next/image'
+import logo from '../../public/images/Logo_2.png'
+
 export default function Header() {
   return (
     <header class="absolute inset-x-0 top-0 z-50">
-      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav class="flex items-center justify-between lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""/>
+            <Image src={logo} className="w-6/12 h-auto" alt="logo"/>
           </a>
         </div>
         <div class="flex lg:hidden">
