@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import profile from '../../public/images/profile/Leonardo_1.png'
-import externalLink from '../../public/images/svgs/external-link.svg'
+import { ExternalLink } from './Icons'
 
 export default function Main() {
   return (
@@ -19,9 +19,9 @@ export default function Main() {
             Explore my latest projects and articles, showcasing my expertise in React.js and web development.
           </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <a href="#" class="flex rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
               Resume
-              <Image src={externalLink} alt="profile"/>
+              <ExternalLink alt="profile"/>
             </a>
             <a href="#" class="text-sm font-semibold leading-6 text-gray-900 underline underline-offset-1">Contact</a>
           </div>
