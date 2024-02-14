@@ -24,7 +24,7 @@ export default function Main() {
               Resume
               <ExternalLink alt="profile"/>
             </Link>
-            <Link href="#" class="text-sm font-semibold leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
+            <Link href="mailto:leocoelho.pi@gmail.com" class="text-sm font-semibold leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
           </div>
         </div>
       </div>
