@@ -24,9 +24,9 @@ export default function Header() {
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Projects</a>
+          <a href="#" class="text-lg font-normal leading-6 text-gray-900">Home</a>
+          <a href="#" class="text-lg font-normal leading-6 text-gray-900">About</a>
+          <a href="#" class="text-lg font-normal leading-6 text-gray-900">Projects</a>
         </div>
         <div class="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end">
           <Image src={github} className="w-6 h-auto" alt="logo"/>
