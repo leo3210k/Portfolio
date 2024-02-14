@@ -20,11 +20,11 @@ export default function Main() {
             Explore my latest projects and articles, showcasing my expertise in React.js and web development.
           </p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
-            <Link href="#" class="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <Link href="/cv/cv.pdf" locale={false} target={"_blank"} class="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
               Resume
               <ExternalLink alt="profile"/>
             </Link>
-            <Link href="mailto:leocoelho.pi@gmail.com" class="text-sm font-semibold leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
+            <Link href="mailto:leocoelho.pi@gmail.com" target={"_blank"} class="text-sm font-semibold leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
           </div>
         </div>
       </div>
