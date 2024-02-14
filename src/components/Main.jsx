@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profile from '../../public/images/Leonardo_1.png'
+import profile from '../../public/images/profile/Leonardo_1.png'
 
 export default function Main() {
   return (
