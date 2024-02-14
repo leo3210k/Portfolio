@@ -44,9 +44,9 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <CustomLink href="/" title="Home" />
-          <CustomLink href="/about" title="About" />
-          <CustomLink href="/projects" title="Projects" />
+          <CustomLink href="/" title="Home" className="text-gray-900" />
+          <CustomLink href="/about" title="About" className="text-gray-900" />
+          <CustomLink href="/projects" title="Projects" className="text-gray-900" />
         </div>
         <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end">
           <Image src={github} className="w-6 h-auto" alt="logo"/>
