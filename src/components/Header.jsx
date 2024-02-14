@@ -1,9 +1,5 @@
 import Image from 'next/image'
 import logo from '../../public/images/logos/Logo_2.png'
-import github from '../../public/images/svgs/github.svg'
-import instagram from '../../public/images/svgs/instagram.svg'
-import linkedin from '../../public/images/svgs/linkedin.svg'
-import twitter from '../../public/images/svgs/twitter.svg'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Github, Instagram, Linkedin, Twitter } from './Icons'
@@ -51,16 +47,19 @@ export default function Header() {
         </div>
         <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end flex-wrap">
           <Link href="/" target={"_blank"}>
-            <Github src={github} className="w-6 h-auto" alt="logo"/>
+            <Github className="w-6 h-auto" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Linkedin src={linkedin} className="w-6 h-auto" alt="logo"/>
+            <Linkedin className="w-6 h-auto" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Instagram src={instagram} className="w-6 h-auto" alt="logo"/>
+            <Instagram className="w-6 h-auto" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Twitter src={twitter} className="w-6 h-auto" alt="logo"/>
+            <Twitter className="w-6 h-auto" alt="logo"/>
+          </Link>
+          <Link href="/" target={"_blank"}>
+            <Pinterest className="w-6 h-auto" alt="logo"/>
           </Link>
         </div>
       </nav>
