@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logo from '../../public/images/logos/Logo_2.png'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Github, Instagram, Linkedin, Twitter } from './Icons'
+import { Github, Instagram, Linkedin, Pinterest, Twitter } from './Icons'
 
 const CustomLink = ({ href, title, className="" }) => {
   const router = useRouter();
