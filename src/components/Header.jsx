@@ -49,11 +49,19 @@ export default function Header() {
           <CustomLink href="/about" title="About" className="text-gray-900" />
           <CustomLink href="/projects" title="Projects" className="text-gray-900" />
         </div>
-        <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end">
-          <Github src={github} className="w-6 h-auto" alt="logo"/>
-          <Linkedin src={linkedin} className="w-6 h-auto" alt="logo"/>
-          <Instagram src={instagram} className="w-6 h-auto" alt="logo"/>
-          <Twitter src={twitter} className="w-6 h-auto" alt="logo"/>
+        <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end flex-wrap">
+          <Link href="/" target={"_blank"}>
+            <Github src={github} className="w-6 h-auto" alt="logo"/>
+          </Link>
+          <Link href="/" target={"_blank"}>
+            <Linkedin src={linkedin} className="w-6 h-auto" alt="logo"/>
+          </Link>
+          <Link href="/" target={"_blank"}>
+            <Instagram src={instagram} className="w-6 h-auto" alt="logo"/>
+          </Link>
+          <Link href="/" target={"_blank"}>
+            <Twitter src={twitter} className="w-6 h-auto" alt="logo"/>
+          </Link>
         </div>
       </nav>
       <div className="lg:hidden" role="dialog" aria-modal="true">
