@@ -6,6 +6,7 @@ import linkedin from '../../public/images/svgs/linkedin.svg'
 import twitter from '../../public/images/svgs/twitter.svg'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { Github, Instagram, Linkedin, Twitter } from './Icons'
 
 const CustomLink = ({ href, title, className="" }) => {
   const router = useRouter();
@@ -49,10 +50,10 @@ export default function Header() {
           <CustomLink href="/projects" title="Projects" className="text-gray-900" />
         </div>
         <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end">
-          <Image src={github} className="w-6 h-auto" alt="logo"/>
-          <Image src={linkedin} className="w-6 h-auto" alt="logo"/>
-          <Image src={instagram} className="w-6 h-auto" alt="logo"/>
-          <Image src={twitter} className="w-6 h-auto" alt="logo"/>
+          <Github src={github} className="w-6 h-auto" alt="logo"/>
+          <Linkedin src={linkedin} className="w-6 h-auto" alt="logo"/>
+          <Instagram src={instagram} className="w-6 h-auto" alt="logo"/>
+          <Twitter src={twitter} className="w-6 h-auto" alt="logo"/>
         </div>
       </nav>
       <div className="lg:hidden" role="dialog" aria-modal="true">
