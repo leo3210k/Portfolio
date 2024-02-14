@@ -1,5 +1,9 @@
 import Image from 'next/image'
 import logo from '../../public/images/logos/Logo_2.png'
+import github from '../../public/images/svgs/github.svg'
+import instagram from '../../public/images/svgs/instagram.svg'
+import linkedin from '../../public/images/svgs/linkedin.svg'
+import twitter from '../../public/images/svgs/twitter.svg'
 
 export default function Header() {
   return (
@@ -24,8 +28,11 @@ export default function Header() {
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">About</a>
           <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Projects</a>
         </div>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+        <div class="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end">
+          <Image src={github} className="w-6 h-auto" alt="logo"/>
+          <Image src={linkedin} className="w-6 h-auto" alt="logo"/>
+          <Image src={instagram} className="w-6 h-auto" alt="logo"/>
+          <Image src={twitter} className="w-6 h-auto" alt="logo"/>
         </div>
       </nav>
       <div class="lg:hidden" role="dialog" aria-modal="true">
