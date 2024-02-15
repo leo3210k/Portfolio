@@ -24,7 +24,7 @@ const CustomLink = ({ href, title, className="" }) => {
 
 export default function Header() {
   return (
-    <header className="absolute inset-x-44 top-0 z-50">
+    <header className="absolute inset-x-28 top-0 z-50">
       <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
