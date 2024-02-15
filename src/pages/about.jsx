@@ -33,7 +33,7 @@ export default function About() {
                 passion to your next project.
               </p>
             </div>
-            <div className="p-7 mx-auto rounded-2xl border-2 shadow-3xl">
+            <div className="mx-auto p-7 rounded-2xl border-2 shadow-3xl">
               <Image src={profile} className="rounded-2xl bg-slate-950" alt="profile"/>
             </div>
             <div class="max-w-7xl px-6 lg:px-8">
