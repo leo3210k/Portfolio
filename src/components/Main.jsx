@@ -1,8 +1,3 @@
-import Image from 'next/image'
-import profile from '../../public/images/profile/Leonardo_1.png'
-import { ExternalLink } from './Icons'
-import Link from 'next/link'
-
 export default function Main({ children }) {
   return (
     <div class="min-h-svh relative isolate px-6 pt-6 lg:px-8">
