@@ -16,7 +16,7 @@ export default function About() {
             <h1 class="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-8xl">
               Passion Fuels Purpose!
             </h1>
-            <div className="mt-10 flex justify-around">
+            <div className="mt-20 flex justify-around">
               <div className="w-4/12">
                 <h2 class="text-xl text-left font-medium leading-8 text-gray-600">BIOGRAPHY</h2>
                 <p class="mt-4 text-base text-left leading-6 text-gray-600">
