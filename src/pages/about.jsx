@@ -11,7 +11,7 @@ export default function About() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <div class="px-20 flex justify-around items-center pt-40">
+        <div class="px-10 flex justify-around items-center pt-40">
           <div class="flex flex-col justify-center items-center">
             <h1 class="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-8xl">
               Passion Fuels Purpose!
