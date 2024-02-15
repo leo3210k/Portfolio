@@ -41,6 +41,24 @@ export default function About() {
               <div className="w-3/12 h-auto p-7 rounded-2xl border-x-2 shadow-3xl">
                 <Image src={profile} className="rounded bg-slate-950" alt="profile"/>
               </div>
+              <div class="py-24 sm:py-32">
+                <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                  <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-1">
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base leading-7 text-gray-600">Transactions every 24 hours</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">44 million</dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base leading-7 text-gray-600">Assets under holding</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">$119 trillion</dd>
+                    </div>
+                    <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                      <dt class="text-base leading-7 text-gray-600">New users annually</dt>
+                      <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">46,000</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
             </div>
             {/* <div class="mt-10 flex items-center justify-center gap-x-6">
               <Link href="/cv/cv.pdf" locale={false} target={"_blank"} class="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
