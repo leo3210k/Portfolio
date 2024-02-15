@@ -10,8 +10,6 @@ export default function Index() {
   return (
     <div className="text-center">
       <Home />
-      {/* <Projects />
-      <Footer /> */}
     </div>
   )
 }
