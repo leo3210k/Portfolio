@@ -4,8 +4,8 @@ export default function Skills() {
   const Skill = ({name, x, y}) => {
 
     return(
-      <motion.div className="flex justify-center items-center rounded-full font-semibold bg-black text-white
-        p-8 shadow-xl cursor-pointer absolute"
+      <motion.div className="flex justify-center items-center rounded-full font-semibold bg-gray-900 text-white
+        px-6 py-3 shadow-xl cursor-pointer absolute"
         whileHover={{scale: 1.05}}
         initial={{x: 0, y: 0}}
         whileInView={{x: x, y: y}}
@@ -20,7 +20,7 @@ export default function Skills() {
     <div className="mt-64 flex flex-col">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl">Skills</h1>
       <div className="w-full h-screen flex justify-center items-center rounded-full bg-circularLight">
-        <motion.div className="flex justify-center items-center rounded-full font-semibold bg-black text-white
+        <motion.div className="flex justify-center items-center rounded-full font-semibold bg-gray-900 text-white
         p-8 shadow-xl cursor-pointer"
         whileHover={{scale: 1.05}}>
           Web
