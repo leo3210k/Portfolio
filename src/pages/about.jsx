@@ -18,7 +18,7 @@ export default function About() {
           className="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-8xl"/>
           <div className="mt-20 px-16 flex">
             <div className="w-4/12">
-              <h2 class="text-xl text-left font-medium leading-8 text-gray-600">BIOGRAPHY</h2>
+              <h2 class="text-xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
               <p class="mt-4 text-base text-left leading-6 text-gray-600">
                 Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                 and user-centered digital experiences. With 4 years of experience in the field. I am always looking for new and 
