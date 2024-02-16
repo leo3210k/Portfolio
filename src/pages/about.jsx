@@ -2,6 +2,7 @@ import '../app/globals.css'
 
 import Header from '@/components/Header'
 import Main from '@/components/Main'
+import Skills from '@/components/Skills'
 
 import Image from 'next/image'
 import profile from '../../public/images/profile/Leonardo_about.png'
@@ -54,6 +55,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <Skills />
       </Main>
     </div>
   )
