@@ -19,6 +19,7 @@ export default function Projects() {
             github="link" demo="link"
             image_1="/images/projects/oriental-food-desktop.jpeg"
             image_2="/images/projects/oriental-food-mobile.jpeg"
+            order={true}
             />
           </div>
         </div>
