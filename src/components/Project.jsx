@@ -3,7 +3,7 @@ import icon from '../../public/images/svgs/github.svg'
 
 export default function Main({ title, description, technologies, image_1, image_2, order=false }) {
   return (
-    <div class="h-screen flex justify-evenly content-center">
+    <div class="h-screen flex justify-evenly content-center snap-center">
       <div className={`relative self-center ${order ? 'order-last' : ''}`}>
         <Image src={`${image_1}`} width={800} height={800} className="rounded-xl shadow-2xl"/>
         <Image src={`${image_2}`} width={200} height={200} className="absolute rounded-xl top-32 -right-10 shadow-2xl"/>
