@@ -19,6 +19,25 @@ export default function Projects() {
             github="link" demo="link"
             image_1="/images/projects/oriental-food-desktop.jpeg"
             image_2="/images/projects/oriental-food-mobile.jpeg"
+            />
+            <Project title="Podcasts" description="No auth needed podcasts web app" 
+            technologies="React, Typescript, Next.js, Styled Jsx, SWR."
+            github="link" demo="link"
+            image_1="/images/projects/oriental-food-desktop.jpeg"
+            image_2="/images/projects/oriental-food-mobile.jpeg"
+            order={true}
+            />
+            <Project title="Podcasts" description="No auth needed podcasts web app" 
+            technologies="React, Typescript, Next.js, Styled Jsx, SWR."
+            github="link" demo="link"
+            image_1="/images/projects/oriental-food-desktop.jpeg"
+            image_2="/images/projects/oriental-food-mobile.jpeg"
+            />
+            <Project title="Podcasts" description="No auth needed podcasts web app" 
+            technologies="React, Typescript, Next.js, Styled Jsx, SWR."
+            github="link" demo="link"
+            image_1="/images/projects/oriental-food-desktop.jpeg"
+            image_2="/images/projects/oriental-food-mobile.jpeg"
             order={true}
             />
           </div>
