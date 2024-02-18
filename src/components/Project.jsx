@@ -7,7 +7,7 @@ export default function Main({ title, description, technologies, image_1, image_
     <motion.div class="h-screen flex justify-evenly content-center"
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ delay: 1 }}
+    transition={{ delay: 1, duration: 1 }}
     viewport={{ once: true }}>
       <div className={`relative self-center ${order ? 'order-last' : ''}`}>
         <Image src={`${image_1}`} width={800} height={800} className="rounded-xl shadow-2xl"/>
