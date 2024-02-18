@@ -1,15 +1,18 @@
-import AnimatedText from '@/components/AnimatedText'
 import '../app/globals.css'
 
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import Project from '@/components/Project'
+import AnimatedText from '@/components/AnimatedText'
+import TransitionEffect from '@/components/TransitionEffect'
+import { motion } from 'framer-motion'
 
 export default function Projects() {
   return (
     <div className="text-center bg-white">
       <Header />
       <Main>
+        <TransitionEffect/>
         <div class="px-10 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Imagination Trumps Knowledge!"
           className="px-40 pb-20 text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-8xl"/>
