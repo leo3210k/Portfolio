@@ -16,7 +16,7 @@ export default function TransitionEffect() {
     <>
       {isThereQuery ? 
         <>
-          <motion.div className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]"
+          <motion.div key={router.asPath} className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]"
           initial={{x: "100%", width: "100%"}}
           animate={{x :"0%", width: "0%"}}
           transition={{duration: 0.8, ease: "easeInOut"}}
