@@ -7,7 +7,7 @@ import { Github, Instagram, Linkedin, Pinterest, Twitter } from './Icons'
 const CustomLink = ({ href, title, className="" }) => {
   const router = useRouter();
   return(
-    <Link href={href} className={`${className} relative group`}>
+    <Link href={{ pathname: href, query: { name: '?addEffect=true' }}} className={`${className} relative group`}>
       {title}
 
       <span className={`
