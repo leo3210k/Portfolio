@@ -3,7 +3,6 @@ import '../app/globals.css'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import AnimatedText from '@/components/AnimatedText'
-import TransitionEffect from '@/components/TransitionEffect'
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
@@ -16,7 +15,6 @@ export default function Index() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <TransitionEffect/>
         <div class="px-24 flex justify-around items-center py-32 sm:py-48 lg:py-24">
           <Image src={profile} className="w-4/12 h-auto" alt="profile"/>
           <div class="w-5/12 flex flex-col items-start">

@@ -4,7 +4,6 @@ import Header from '@/components/Header'
 import Main from '@/components/Main'
 import Skills from '@/components/Skills'
 import AnimatedText from '@/components/AnimatedText'
-import TransitionEffect from '@/components/TransitionEffect'
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
@@ -15,7 +14,6 @@ export default function About() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <TransitionEffect/>
         <div class="px-10 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Passion Fuels Purpose!"
           className="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-8xl"/>
