@@ -8,6 +8,7 @@ import AnimatedText from '@/components/AnimatedText'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import profile from '../../public/images/profile/Leonardo_about.png'
+import Footer from '@/components/Footer'
 
 export default function About() {
   return (
@@ -58,6 +59,7 @@ export default function About() {
         </div>
         <Skills />
       </Main>
+      <Footer />
     </div>
   )
 }

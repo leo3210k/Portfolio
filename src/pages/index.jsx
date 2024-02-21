@@ -9,6 +9,7 @@ import Image from 'next/image'
 import profile from '../../public/images/profile/Leonardo_1.png'
 import { ExternalLink } from '../components/Icons'
 import Link from 'next/link'
+import Footer from '@/components/Footer'
 
 export default function Index() {
   return (
@@ -34,6 +35,7 @@ export default function Index() {
           </div>
         </div>
       </Main>
+      <Footer />
     </div>
   )
 }

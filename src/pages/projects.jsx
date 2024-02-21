@@ -44,6 +44,7 @@ export default function Projects() {
           </div>
         </div>
       </Main>
+      <Footer />
     </div>
   )
 }
