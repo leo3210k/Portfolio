@@ -1,4 +1,4 @@
-import { Copyright, Heart } from "./Icons";
+import { Heart } from "./Icons";
 
 export default function Footer({ children }) {
   return (
