@@ -47,19 +47,19 @@ export default function Header() {
         </div>
         <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end flex-wrap">
           <Link href="/" target={"_blank"}>
-            <Github className="w-6 h-auto" alt="logo"/>
+            <Github className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Linkedin className="w-6 h-auto" alt="logo"/>
+            <Linkedin className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Instagram className="w-6 h-auto" alt="logo"/>
+            <Instagram className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Twitter className="w-6 h-auto" alt="logo"/>
+            <Twitter className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Pinterest className="w-6 h-auto" alt="logo"/>
+            <Pinterest className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
         </div>
       </nav>
