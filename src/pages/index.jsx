@@ -35,7 +35,7 @@ export default function Index() {
           </div>
         </div>
       </Main>
-      <Footer />
+      <Footer />  
     </div>
   )
 }
