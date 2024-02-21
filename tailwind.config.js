@@ -15,6 +15,9 @@ module.exports = {
       },
       boxShadow: {
         "3xl": "7px 10px 0 5px #020617",
+      },
+      animation: {
+        'ping-slow': 'ping 2s linear infinite'
       }
     },
   },
