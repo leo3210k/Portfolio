@@ -5,6 +5,7 @@ import Main from '@/components/Main'
 import Project from '@/components/Project'
 import AnimatedText from '@/components/AnimatedText'
 import { motion } from 'framer-motion'
+import Footer from '@/components/Footer'
 
 export default function Projects() {
   return (
