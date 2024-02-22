@@ -24,9 +24,9 @@ const CustomLink = ({ href, title, className="" }) => {
 
 export default function Header() {
   return (
-    <header className="absolute inset-x-28 top-0 z-20">
+    <header className="absolute xl:inset-x-28 top-0 z-20">
       <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
+        <div className="flex">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <Image src={logo} className="w-6/12 h-auto" alt="logo"/>
@@ -45,7 +45,7 @@ export default function Header() {
           <CustomLink href="/about" title="About" className="text-gray-900" />
           <CustomLink href="/projects" title="Projects" className="text-gray-900" />
         </div>
-        <div className="hidden gap-x-8 lg:flex lg:flex-1 lg:justify-end flex-wrap">
+        <div className="hidden gap-x-8 lg:flex lg:justify-end flex-wrap">
           <Link href="/" target={"_blank"}>
             <Github className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
