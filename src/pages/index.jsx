@@ -16,11 +16,11 @@ export default function Index() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <div class="mx-auto flex justify-around items-center py-32 sm:py-48 lg:py-28 xl:py-24">
+        <div class="mx-auto flex justify-around items-center py-32 sm:py-48 lg:py-30 xl:py-24">
           <Image src={profile} className="w-4/12 h-auto" alt="profile"/>
           <div class="w-5/12 flex flex-col items-start">
             <AnimatedText text="Turning Vision Into Reality With Code And Design."
-            className="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl xl:text-7xl"/>
+            className="text-4xl sm:text-6xl xl:text-7xl text-left font-bold tracking-tight text-gray-900 "/>
             <p class="mt-6 text-lg text-left leading-8 text-gray-600">
               As a skilled front-end developer, I am dedicated to turning ideas into innovative web applications. 
               Explore my latest projects, showcasing my expertise in React.js and web development.
