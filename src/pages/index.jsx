@@ -16,7 +16,7 @@ export default function Index() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <div class="px-24 flex justify-around items-center py-32 sm:py-48 lg:py-24">
+        <div class="mx-auto flex justify-around items-center py-32 sm:py-48 lg:py-24">
           <Image src={profile} className="w-4/12 h-auto" alt="profile"/>
           <div class="w-5/12 flex flex-col items-start">
             <AnimatedText text="Turning Vision Into Reality With Code And Design."
