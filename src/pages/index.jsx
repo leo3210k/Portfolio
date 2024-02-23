@@ -17,7 +17,7 @@ export default function Index() {
       <Header />
       <Main>
         <div class="mx-auto flex sm:justify-center lg:justify-around items-center sm:mt-80 lg:mt-48 xl:mt-24">
-          <Image src={profile} className="hidden lg:block w-4/12 h-auto" alt="profile"/>
+          <Image src={profile} className="md:hidden lg:block w-4/12 h-auto" alt="profile"/>
           <div class="sm:w-11/12 lg:w-5/12 flex flex-col lg:items-start">
             <AnimatedText text="Turning Vision Into Reality With Code And Design."
             className="text-4xl sm:text-6xl xl:text-7xl sm:text-center lg:text-left font-bold tracking-tight text-gray-900 "/>
