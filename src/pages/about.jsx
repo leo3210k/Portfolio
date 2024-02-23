@@ -15,10 +15,10 @@ export default function About() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <div class="px-10 pt-40 flex flex-col justify-center items-center">
+        <div class="px-20 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Passion Fuels Purpose!"
           className="text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-8xl"/>
-          <div className="mt-20 px-16 flex justify-around">
+          <div className="mt-20 flex justify-around">
             <div className="w-4/12">
               <h2 class="text-xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
               <p class="mt-4 text-base text-left leading-6 text-gray-600">
@@ -37,10 +37,10 @@ export default function About() {
               </p>
             </div>
             <div className="p-7 rounded-2xl border-2 shadow-3xl">
-              <Image src={profile} className="rounded-2xl bg-slate-950" alt="profile"/>
+              <Image src={profile} width={450} className="rounded-2xl bg-slate-950" alt="profile"/>
             </div>
-            <div class="max-w-7xl px-6 lg:px-8">
-              <dl class="h-full mx-auto  flex flex-col justify-between gap-x-8 text-center">
+            {/* <div class="grow">
+              <dl class="h-full flex flex-col justify-between items-end text-center">
                 <div class="mx-auto flex max-w-xs flex-col gap-y-4">
                   <dt class="text-xl leading-7 text-gray-600">Satisfied Clients</dt>
                   <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-7xl">44 +</dd>
@@ -54,7 +54,7 @@ export default function About() {
                   <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-7xl">4+</dd>
                 </div>
               </dl>
-            </div>
+            </div> */}
           </div>
         </div>
         <Skills />
