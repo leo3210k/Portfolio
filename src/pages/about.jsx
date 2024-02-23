@@ -17,8 +17,8 @@ export default function About() {
       <Main>
         <div class="px-10 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Passion Fuels Purpose!"
-          className="text-4xl text-left font-bold tracking-tight text-gray-900 sm:text-8xl"/>
-          <div className="mt-20 px-16 flex">
+          className="text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-8xl"/>
+          <div className="mt-20 px-16 flex justify-around">
             <div className="w-4/12">
               <h2 class="text-xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
               <p class="mt-4 text-base text-left leading-6 text-gray-600">
@@ -36,7 +36,7 @@ export default function About() {
                 passion to your next project.
               </p>
             </div>
-            <div className="mx-auto p-7 rounded-2xl border-2 shadow-3xl">
+            <div className="p-7 rounded-2xl border-2 shadow-3xl">
               <Image src={profile} className="rounded-2xl bg-slate-950" alt="profile"/>
             </div>
             <div class="max-w-7xl px-6 lg:px-8">
