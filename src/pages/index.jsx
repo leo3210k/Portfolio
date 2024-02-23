@@ -30,7 +30,7 @@ export default function Index() {
                 Resume
                 <ExternalLink alt="profile"/>
               </Link>
-              <Link href="mailto:leocoelho.pi@gmail.com" target={"_blank"} class="text-xl leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
+              <Link href="mailto:leocoelho.pi@gmail.com" target={"_blank"} class="text-lg md:text-xl leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
             </div>
           </div>
         </div>
