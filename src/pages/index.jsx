@@ -16,8 +16,8 @@ export default function Index() {
     <div className="text-center bg-white">
       <Header />
       <Main>
-        <div class="mx-auto flex flex-col md:flex-row sm:justify-center lg:justify-around items-center mt-20 md:mt-80 lg:mt-48 xl:mt-24">
-          <Image src={profile} className="w-8/12 md:hidden lg:block lg:w-4/12 h-auto" alt="profile"/>
+        <div class="mx-auto flex flex-col md:flex-row sm:justify-center lg:justify-around items-center gap-y-7 mt-10 md:mt-80 lg:mt-48 xl:mt-24">
+          <Image src={profile} className="w-9/12 md:hidden lg:block lg:w-4/12 h-auto" alt="profile"/>
           <div class="sm:w-11/12 lg:w-5/12 flex flex-col lg:items-start">
             <AnimatedText text="Turning Vision Into Reality With Code And Design."
             className="text-4xl sm:text-6xl xl:text-7xl sm:text-center lg:text-left font-bold tracking-tight text-gray-900 "/>
