@@ -25,7 +25,7 @@ export default function Index() {
               As a skilled front-end developer, I am dedicated to turning ideas into innovative web applications. 
               Explore my latest projects, showcasing my expertise in React.js and web development.
             </p>
-            <div class="mt-10 flex items-center justify-center gap-x-6">
+            <div class="mt-6 sm:mt-10 flex items-center justify-center gap-x-6">
               <Link href="/cv/cv.pdf" locale={false} target={"_blank"} class="flex items-center gap-x-2 rounded-lg bg-indigo-600 px-4 py-2 md:px-7 md:py-3 text-lg md:text-xl font-medium text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Resume
                 <ExternalLink alt="profile"/>
