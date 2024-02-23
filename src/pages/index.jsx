@@ -21,7 +21,7 @@ export default function Index() {
           <div class="sm:w-11/12 lg:w-5/12 flex flex-col lg:items-start">
             <AnimatedText text="Turning Vision Into Reality With Code And Design."
             className="text-4xl sm:text-6xl xl:text-7xl sm:text-center lg:text-left font-bold tracking-tight text-gray-900 "/>
-            <p class="mt-6 text-lg sm:text-center lg:text-left leading-8 text-gray-600">
+            <p class="mt-6 text-base sm:text-lg sm:text-center lg:text-left sm:leading-8 text-gray-600">
               As a skilled front-end developer, I am dedicated to turning ideas into innovative web applications. 
               Explore my latest projects, showcasing my expertise in React.js and web development.
             </p>
