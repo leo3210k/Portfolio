@@ -24,7 +24,7 @@ const CustomLink = ({ href, title, className="" }) => {
 }
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState()
+  const [isOpen, setIsOpen] = useState(false)
 
   const handleClick = () => {
     setIsOpen(!isOpen)
@@ -72,7 +72,7 @@ export default function Header() {
           </Link>
         </div>
       </nav>
-      <div className={`${isOpen ? 'hidden' : ''} lg:hidden`} role="dialog" aria-modal="true">
+      <div className={`${isOpen ? '' : 'hidden'}`} role="dialog" aria-modal="true">
         <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
