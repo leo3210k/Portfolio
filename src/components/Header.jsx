@@ -32,7 +32,7 @@ export default function Header() {
   }
 
   return (
-    <header className="absolute sm:inset-x-36 lg:inset-x-24 xl:inset-x-28 top-0 z-20">
+    <header className="absolute inset-x-10 lg:inset-x-24 xl:inset-x-28 top-0 z-20">
       <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
         <div className="flex">
           <a href="#" className="-m-1.5 p-1.5">
