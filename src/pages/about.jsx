@@ -36,8 +36,8 @@ export default function About() {
                 passion to your next project.
               </p>
             </div>
-            <div className="p-7 rounded-2xl border-2 shadow-3xl">
-              <Image src={profile} width={450} className="rounded-2xl bg-slate-950" alt="profile"/>
+            <div className="w-4/12 p-7 rounded-2xl border-2 shadow-3xl">
+              <Image src={profile} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-full h-auto rounded-2xl bg-slate-950" alt="profile"/>
             </div>
             {/* <div class="grow">
               <dl class="h-full flex flex-col justify-between items-end text-center">
