@@ -17,7 +17,7 @@ export default function About() {
       <Main>
         <div class="px-20 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Passion Fuels Purpose!"
-          className="text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-8xl"/>
+          className="text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="mt-20 flex justify-around items-center">
             <div className="w-4/12">
               <h2 class="text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
