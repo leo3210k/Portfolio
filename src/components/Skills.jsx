@@ -18,7 +18,7 @@ export default function Skills() {
 
   return (
     <div className="mt-40 md:mt-64 mb-10 flex flex-col">
-      <h1 className="text-4xl md:text-8xl font-bold tracking-tight text-gray-900">Skills</h1>
+      <h1 className="text-7xl md:text-8xl font-bold tracking-tight text-gray-900">Skills</h1>
       <div className="w-full h-screen flex justify-center items-center rounded-full bg-circularLight">
         <motion.div className="flex justify-center items-center rounded-full font-semibold bg-gray-900 text-white
         p-8 shadow-xl cursor-pointer"
