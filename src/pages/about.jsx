@@ -18,8 +18,8 @@ export default function About() {
         <div class="px-20 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Passion Fuels Purpose!"
           className="text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
-          <div className="mt-20 flex justify-around items-center">
-            <div className="w-4/12">
+          <div className="mt-20 flex flex-col md:flex-row justify-around items-center">
+            <div className="w-4/12 order-last md:order-none">
               <h2 class="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
               <p class="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
                 Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
