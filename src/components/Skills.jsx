@@ -19,9 +19,10 @@ export default function Skills() {
   return (
     <div className="mt-40 md:mt-64 mb-10 flex flex-col">
       <h1 className="text-7xl md:text-8xl font-bold tracking-tight text-gray-900">Skills</h1>
-      <div className="w-full h-screen flex justify-center items-center rounded-full bg-circularLight lg:bg-lgCircularLight">
+      <div className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen flex justify-center items-center rounded-full 
+      bg-circularLight sm:bg-smCircularLight md:bg-mdCircularLight lg:bg-lgCircularLight">
         <motion.div className="flex justify-center items-center rounded-full font-semibold bg-gray-900 text-white
-        p-8 shadow-xl cursor-pointer"
+        p-2 md:p-4 lg:p-8 shadow-xl cursor-pointer"
         whileHover={{scale: 1.05}}>
           Web
         </motion.div>
