@@ -18,8 +18,8 @@ export default function About() {
         <div class="px-20 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Passion Fuels Purpose!"
           className="text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
-          <div className="mt-20 flex flex-col md:flex-row justify-around items-center">
-            <div className="w-4/12 order-last md:order-none">
+          <div className="mt-20 flex flex-col md:flex-row justify-around items-center gap-y-12">
+            <div className="w-12/12 md:w-4/12 order-last md:order-none">
               <h2 class="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
               <p class="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
                 Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
@@ -36,7 +36,7 @@ export default function About() {
                 passion to your next project.
               </p>
             </div>
-            <div className="w-5/12 xl:w-4/12 p-7 self-start rounded-2xl border-2 shadow-3xl">
+            <div className="w-full md:w-5/12 xl:w-4/12 p-7 self-start rounded-2xl border-2 shadow-3xl">
               <Image src={profile} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-full h-auto rounded-2xl bg-slate-950" alt="profile"/>
             </div>
             {/* <div class="grow">
