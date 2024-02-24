@@ -4,7 +4,7 @@ export default function Skills() {
   const Skill = ({name, x, y}) => {
 
     return(
-      <motion.div className="flex justify-center items-center rounded-full font-semibold bg-gray-900 text-white
+      <motion.div className="flex justify-center items-center sm:text-sm md:text-base rounded-full font-semibold bg-gray-900 text-white
         px-4 py-2 md:px-4 md:py-2 lg:px-6 lg:py-3 shadow-xl cursor-pointer absolute"
         whileHover={{scale: 1.05}}
         initial={{x: 0, y: 0}}
