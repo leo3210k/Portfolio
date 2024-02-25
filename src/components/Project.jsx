@@ -11,7 +11,7 @@ export default function Main({ title, description, technologies, image_1, image_
     viewport={{ once: true }}>
       <div className={`relative self-center ${order ? 'order-last' : ''}`}>
         <Image src={`${image_1}`} width={800} height={800} className="rounded-xl shadow-2xl"/>
-        <Image src={`${image_2}`} width={200} height={200} className="absolute rounded-xl top-32 -right-10 shadow-2xl"/>
+        <Image src={`${image_2}`} width={200} height={200} className="absolute w-3/12 rounded-xl top-32 -right-10 shadow-2xl"/>
       </div>
       <div className={`w-3/12 ${order ? 'mr-32' : 'ml-32'} flex flex-col justify-center gap-y-1 text-left`}>
         <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">{ title }</h1>
