@@ -14,7 +14,7 @@ export default function Projects() {
       <Main>
         <div class="px-10 pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Imagination Trumps Knowledge!"
-          className="px-40 pb-20 text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-8xl"/>
+          className="px-40 pb-20 text-4xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
             <Project title="Podcasts" description="No auth needed podcasts web app" 
             technologies="React, Typescript, Next.js, Styled Jsx, SWR."
