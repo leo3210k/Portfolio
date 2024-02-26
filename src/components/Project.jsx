@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Main({ title, description, technologies, image_1, image_2, order=false }) {
   return (
-    <motion.div class="h-[80vh] lg:h-screen flex flex-col lg:flex-row justify-evenly"
+    <motion.div class="h-screen flex flex-col lg:flex-row justify-evenly items-center"
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ delay: 1, duration: 1 }}
