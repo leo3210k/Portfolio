@@ -9,7 +9,7 @@ export default function Main({ title, description, technologies, image_1, image_
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ delay: 1, duration: 1 }}
     viewport={{ once: true }}>
-      <div className={`relative self-center ${order ? 'order-last' : ''}`}>
+      <div className={`relative self-center ${order ? 'lg:order-last' : ''}`}>
         <Image src={`${image_1}`} width={800} height={800} className="rounded-xl shadow-2xl"/>
         <Image src={`${image_2}`} width={200} height={200} className="absolute w-3/12 rounded-xl top-32 -right-10 shadow-2xl"/>
       </div>
