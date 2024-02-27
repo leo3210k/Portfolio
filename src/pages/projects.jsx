@@ -6,10 +6,14 @@ import Project from '@/components/Project'
 import AnimatedText from '@/components/AnimatedText'
 import { motion } from 'framer-motion'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 export default function Projects() {
   return (
     <div className="text-center bg-white">
+      <Head>
+        <title>Projects</title>
+      </Head>
       <Header />
       <Main>
         <div class="px-10 pt-40 flex flex-col justify-center items-center">

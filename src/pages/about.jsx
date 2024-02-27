@@ -9,10 +9,14 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import profile from '../../public/images/profile/Leonardo_about.png'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 export default function About() {
   return (
     <div className="text-center bg-white">
+      <Head>
+        <title>About</title>
+      </Head>
       <Header />
       <Main>
         <div class="px-5 pt-20 sm:pt-28 lg:pt-40 flex flex-col justify-center items-center">

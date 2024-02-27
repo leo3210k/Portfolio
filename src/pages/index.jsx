@@ -10,10 +10,14 @@ import profile from '../../public/images/profile/Leonardo_1.png'
 import { ExternalLink } from '../components/Icons'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 export default function Index() {
   return (
     <div className="text-center bg-white">
+      <Head>
+        <title>Home Page</title>
+      </Head>
       <Header />
       <Main>
         <div class="mx-auto flex flex-col md:flex-row sm:justify-center lg:justify-around items-center gap-y-7 mt-10 md:mt-80 lg:mt-48 xl:mt-24 mb-10 md:mb-0">
