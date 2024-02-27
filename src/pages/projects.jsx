@@ -16,11 +16,12 @@ export default function Projects() {
           <AnimatedText text="Imagination Trumps Knowledge!"
           className="lg:ps-36 lg:pe-36 md:pb-10 lg:pb-20 text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
-            <Project title="Podcasts" description="No auth needed podcasts web app" 
-            technologies="React, Typescript, Next.js, Styled Jsx, SWR."
+            <Project title="Oriental Food" description="A website for an oriental food restaurant" 
+            technologies="Html, Css."
             image_1="/images/projects/oriental-food-desktop.jpeg"
             image_2="/images/projects/oriental-food-mobile.jpeg"
-            demo="link" github="link" 
+            demo="https://oriental-food.vercel.app/" 
+            github="https://github.com/leo3210k/Oriental_Food" 
             />
             <Project title="Podcasts" description="No auth needed podcasts web app" 
             technologies="React, Typescript, Next.js, Styled Jsx, SWR."
