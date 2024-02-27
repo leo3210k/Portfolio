@@ -15,8 +15,8 @@ export default function Main({ title, description, technologies, image_1, image_
       </div>
       <div className={`lg:w-3/12 ${order ? 'lg:mr-32' : 'lg:ml-32'} flex flex-col justify-center items-center lg:items-baseline gap-y-1 text-left`}>
         <h1 className="text-2xl xs:text-3xl md:text-4xl font-bold tracking-tight text-gray-900">{ title }</h1>
-        <h2 className="text-center font-medium text-gray-900">{ description }</h2>
-        <span className="mt-2 italic text-center font-normal text-gray-600">{ technologies }</span>
+        <h2 className="text-center md:text-justify font-medium text-gray-900">{ description }</h2>
+        <span className="mt-2 italic text-center md:text-justify font-normal text-gray-600">{ technologies }</span>
         <div className="mt-5 flex gap-x-6">
           <Image src={icon} className="w-10" alt="icon"/>
           <span className="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 xs:text-lg text-center font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline">Visit Project</span>
