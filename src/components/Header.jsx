@@ -37,7 +37,9 @@ export default function Header() {
         <div className="flex">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image src={logo} className="w-20 h-auto" alt="logo"/>
+            <Link href={{ pathname: "/", query: { name: '?addEffect=true' }}}>
+              <Image src={logo} className="w-20 h-auto" alt="logo"/>
+            </Link>
           </a>
         </div>
         <div className="flex lg:hidden">
