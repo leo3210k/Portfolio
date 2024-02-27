@@ -3,7 +3,7 @@ import Main from './Main'
 
 export default function Home() {
   return (
-    <div class="bg-white">
+    <div className="bg-white">
       <Header />
       <Main />
     </div>
