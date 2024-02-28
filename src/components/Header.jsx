@@ -28,7 +28,6 @@ export default function Header() {
 
   const handleClick = () => {
     setIsOpen(!isOpen)
-    console.log(isOpen)
   }
 
   return (
