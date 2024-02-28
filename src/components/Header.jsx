@@ -34,12 +34,10 @@ export default function Header() {
     <header className="absolute inset-x-10 lg:inset-x-24 xl:inset-x-28 top-0 z-20">
       <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
         <div className="flex">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <Link href={{ pathname: "/", query: { name: '?addEffect=true' }}}>
-              <Image src={logo} className="w-20 h-auto" alt="logo"/>
-            </Link>
-          </a>
+          <span className="sr-only">Your Company</span>
+          <Link href={{ pathname: "/", query: { name: '?addEffect=true' }}}>
+            <Image src={logo} className="w-20 h-auto" alt="logo"/>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"  
