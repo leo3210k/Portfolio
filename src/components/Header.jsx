@@ -8,7 +8,7 @@ import { useState } from 'react'
 const CustomLink = ({ href, title, className="" }) => {
   const router = useRouter();
   return(
-    <Link href={{ pathname: href, query: { name: '?addEffect=true' }}} className={`${className} relative group`}>
+    <Link href={{ pathname: href, query: { name: 'addEffect=true' }}} className={`${className} relative group`}>
       {title}
 
       <span className={`
