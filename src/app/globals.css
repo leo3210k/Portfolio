@@ -34,7 +34,6 @@ body {
   right: 0;
   bottom: 0;
   width: 400px;
-  background: var(--accent);
   padding-top: 100px;
   transform: translateX(100%);
   will-change: transform;
