@@ -4,6 +4,9 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Github, Instagram, Linkedin, Pinterest, Twitter } from './Icons'
 import { useState } from 'react'
+import { MenuToggle } from "./MenuToggle";
+import Menu from './Menu'
+import animatedMenu from './animatedMenu'
 
 const CustomLink = ({ href, title, className="" }) => {
   const router = useRouter();
@@ -26,6 +29,8 @@ const CustomLink = ({ href, title, className="" }) => {
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
+  const scope = animatedMenu(isOpen);
+
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
@@ -39,14 +44,9 @@ export default function Header() {
             <Image src={logo} className="w-20 h-auto" alt="logo"/>
           </Link>
         </div>
-        <div className="flex lg:hidden">
-          <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"  
-          onClick={handleClick}>
-            <span className="sr-only">Open main menu</span>
-            <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
+        <div className="flex justify-center items-center" ref={scope}>
+          <Menu/>
+          <MenuToggle toggle={() => setIsOpen(!isOpen)} />
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           <CustomLink href="/" title="Home" className="text-gray-900" />
@@ -71,33 +71,6 @@ export default function Header() {
           </Link>
         </div>
       </nav>
-      <div className={`${isOpen ? '' : 'hidden'}`} role="dialog" aria-modal="true">
-        <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
-            <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={handleClick}>
-              <span className="sr-only">Close menu</span>
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-          <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
-                <Link href={{ pathname: "/", query: { name: '?addEffect=true' }}} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  Home
-                </Link>
-                <Link href={{ pathname: "/about", query: { name: '?addEffect=true' }}} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  About
-                </Link>
-                <Link href={{ pathname: "/projects", query: { name: '?addEffect=true' }}} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  Projects
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </header>
   )
 }
