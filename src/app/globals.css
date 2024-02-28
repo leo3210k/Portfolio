@@ -20,6 +20,71 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  --black: #000;
+  --white: #fafafa;
+  --pink: #ff0066;
+  --background: var(--white);
+  --accent: var(--pink);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  background: var(--accent);
+  padding-top: 100px;
+  transform: translateX(100%);
+  will-change: transform;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+
+li {
+  color: var(--background);
+  display: block;
+  transform-origin: -20px 50%;
+  font-weight: bold;
+  font-size: 48px;
+  padding: 10px;
+  will-change: transform, opacity, filter;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+button.button {
+  outline: none;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  top: 18px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 100;
+}
+
+.top,
+.middle,
+.bottom {
+  stroke: #111827;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
