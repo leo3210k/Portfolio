@@ -44,7 +44,7 @@ export default function Header() {
             <Image src={logo} className="w-20 h-auto" alt="logo"/>
           </Link>
         </div>
-        <div className="flex justify-center items-center" ref={scope}>
+        <div className="flex lg:hidden justify-center items-center" ref={scope}>
           <Menu/>
           <MenuToggle toggle={() => setIsOpen(!isOpen)} />
         </div>
