@@ -6,13 +6,13 @@ import { Github, Instagram, Linkedin, Pinterest, Twitter } from './Icons'
 import { useState } from 'react'
 import { MenuToggle } from "./MenuToggle";
 import Menu from './Menu'
-import animatedMenu from './AnimatedMenu'
+import AnimatedMenu from './AnimatedMenu'
 import CustomLink from './CustomLink'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const scope = animatedMenu(isOpen);
+  const scope = AnimatedMenu(isOpen);
 
   return (
     <header className="absolute inset-x-10 lg:inset-x-24 xl:inset-x-28 top-0 z-20">
