@@ -14,10 +14,6 @@ export default function Header() {
 
   const scope = animatedMenu(isOpen);
 
-  const handleClick = () => {
-    setIsOpen(!isOpen)
-  }
-
   return (
     <header className="absolute inset-x-10 lg:inset-x-24 xl:inset-x-28 top-0 z-20">
       <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
