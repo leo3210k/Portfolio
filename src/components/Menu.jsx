@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Instagram, Linkedin, Pinterest, Twitter } from './Icons';
+import { Github, Instagram_2, Linkedin, Pinterest, Twitter } from './Icons';
 import CustomLink from "./CustomLink";
 
 export default function Menu() {  
@@ -18,7 +18,7 @@ export default function Menu() {
             <Linkedin className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Instagram className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
+            <Instagram_2 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
             <Twitter className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
