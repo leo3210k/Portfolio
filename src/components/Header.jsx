@@ -2,7 +2,7 @@ import Image from 'next/image'
 import logo from '../../public/images/logos/Logo_2.png'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { Github, Instagram, Linkedin, Pinterest, Twitter } from './Icons'
+import { Github, Instagram_1, Linkedin, Pinterest, Twitter } from './Icons'
 import { useState } from 'react'
 import { MenuToggle } from "./MenuToggle";
 import Menu from './Menu'
@@ -40,7 +40,7 @@ export default function Header() {
             <Linkedin className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
-            <Instagram className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
+            <Instagram_1 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="/" target={"_blank"}>
             <Twitter className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
