@@ -39,14 +39,14 @@ body {
   will-change: transform;
 }
 
-ul {
+.menu ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 15px;
 }
 
-li {
+.menu li {
   color: var(--background);
   display: block;
   transform-origin: -20px 50%;
