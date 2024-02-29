@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { MenuToggle } from "./MenuToggle";
 import Menu from './Menu'
 import animatedMenu from './animatedMenu'
+import CustomLink from './CustomLink'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
