@@ -6,7 +6,7 @@ export default function CustomLink({ href, title, className="", background }) {
 
   return(
     <Link href={{ pathname: href, query: { name: 'addEffect=true' }}} className={`${className} relative group`}>
-      <li>
+      <li className="inline">
         {title}
         <span className={`
         h-[1px] inline-block
@@ -17,7 +17,6 @@ export default function CustomLink({ href, title, className="", background }) {
         `}
         >&nbsp;</span>
       </li>
-
     </Link>
   )
 }
