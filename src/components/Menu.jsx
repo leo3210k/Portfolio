@@ -11,19 +11,19 @@ export default function Menu() {
         <CustomLink href="/projects" title="Projects" className="-mx-3 block px-3 py-2 text-base font-semibold leading-7 text-white" background="white" />
       </ul>
       <div className="flex self-center gap-x-8 flex-wrap">
-          <Link href="/" target={"_blank"}>
+          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Github className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
+          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Linkedin className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
+          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Instagram_2 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
+          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Twitter className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
+          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Pinterest className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
         </div>
