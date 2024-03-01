@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function CustomLink({ href, title, className="",text_color="", background }) {
+export default function CustomLink({ href, title, className="",text_color, background }) {
   const router = useRouter();
 
   return(
     <Link href={{ pathname: href, query: { name: 'addEffect=true' }}} className={`${className} relative group`}>
-      <li className="inline text-transparent bg-clip-text bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]">
+      <li className={`inline ${text_color}`}>
         {title}
         <span className={`
         h-[1px] inline-block
