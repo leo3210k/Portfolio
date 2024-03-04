@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="flex items-center justify-between lg:px-8" aria-label="Global">
         <div className="flex">
           <span className="sr-only">Your Company</span>
-          <Link href={{ pathname: "/", query: { name: '?addEffect=true' }}}>
+          <Link href={{ pathname: "/", query: { name: 'addEffect=true' }}}>
             <Image src={logo} className="w-20 h-auto" alt="logo"/>
           </Link>
         </div>
