@@ -20,7 +20,7 @@ export default function About() {
       <Header />
       <Main>
         <div className="px-5 pt-20 sm:pt-28 lg:pt-40 flex flex-col justify-center items-center">
-          <AnimatedText text="A paixão alimenta o propósito!"
+          <AnimatedText text="Entre Trilhas e Conquistas!"
           className="text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="mt-20 flex flex-col md:flex-row justify-around items-center gap-y-12">
             <div className="w-12/12 md:w-4/12 order-last md:order-none">
