@@ -20,13 +20,13 @@ export default function About() {
       <Header />
       <Main>
         <div className="px-5 pt-20 sm:pt-28 lg:pt-40 flex flex-col justify-center items-center">
-          <AnimatedText text="Passion Fuels Purpose!"
+          <AnimatedText text="A paixão alimenta o propósito!"
           className="text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="mt-20 flex flex-col md:flex-row justify-around items-center gap-y-12">
             <div className="w-12/12 md:w-4/12 order-last md:order-none">
               <h2 className="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
+                Hi, I'm Leo, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                 and user-centered digital experiences. With 4 years of experience in the field. I am always looking for new and 
                 innovative ways to bring my clients' visions to life.
               </p>
