@@ -24,20 +24,20 @@ export default function About() {
           className="text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="mt-20 flex flex-col md:flex-row justify-around items-center gap-y-12">
             <div className="w-12/12 md:w-4/12 order-last md:order-none">
-              <h2 className="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAPHY</h2>
+              <h2 className="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAFIA</h2>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                Hi, I'm Leo, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for new and 
-                innovative ways to bring my clients' visions to life.
+                Olá, sou Leo, desenvolvedor web e designer UI/UX apaixonado por criar designs bonitos, funcionais e
+                e experiências digitais centradas no usuário. Com 4 anos de experiência na área. Estou sempre em busca de novidades e
+                formas inovadoras de dar vida às visões dos meus clientes.
               </p>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                I believe that design is about more than just making things look pretty – it's about solving problems and creating 
-                intuitive, enjoyable experiences for users.
+                Acredito que design é mais do que apenas fazer as coisas parecerem bonitas – é resolver problemas e criar
+                experiências intuitivas e agradáveis ​​para os usuários.
               </p>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                Whether I'm working on a website, mobile app, or other digital product, I bring my commitment to design excellence 
-                and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and 
-                passion to your next project.
+                Quer esteja trabalhando em um site, aplicativo móvel ou outro produto digital, trago meu compromisso com a excelência em design
+                e pensamento centrado no usuário para cada projeto em que trabalho. Estou ansioso pela oportunidade de trazer minhas habilidades e
+                paixão pelo seu próximo projeto.
               </p>
             </div>
             <div className="w-full md:w-5/12 xl:w-4/12 p-7 self-start rounded-2xl border-2 shadow-3xl">
