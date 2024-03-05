@@ -28,9 +28,9 @@ export default function Header() {
           <MenuToggle toggle={() => setIsOpen(!isOpen)} />
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <CustomLink href="/" title="Home" text_color="text-gray-900" background="black" />
-          <CustomLink href="/about" title="About" text_color="text-gray-900" background="black" />
-          <CustomLink href="/projects" title="Projects" text_color="text-gray-900" background="black" />
+          <CustomLink href="/" title="Início" text_color="text-gray-900" background="black" />
+          <CustomLink href="/about" title="Sobre mim" text_color="text-gray-900" background="black" />
+          <CustomLink href="/projects" title="Projetos" text_color="text-gray-900" background="black" />
         </div>
         <div className="hidden gap-x-8 lg:flex lg:justify-end flex-wrap">
           <Link href="/" target={"_blank"}>
