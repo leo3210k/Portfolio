@@ -23,7 +23,7 @@ export default function Main({ title, description, technologies, image_1, image_
             <Image src={icon} className="w-10" alt="icon"/>
           </Link>
           <Link href={demo} className="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 xs:text-lg text-center font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline">
-            Visit Project
+            Visitar Projeto
           </Link>
         </div>
       </div>
