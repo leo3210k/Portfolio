@@ -20,7 +20,7 @@ export default function Projects() {
           <AnimatedText text="A imaginação supera o conhecimento!"
           className="lg:ps-36 lg:pe-36 md:pb-10 lg:pb-20 text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
-            <Project title="Oriental Food" description="A website for an oriental food restaurant" 
+            <Project title="Oriental Food" description="Um site para um restaurante de comida oriental" 
             technologies="Html, Css."
             image_1="/images/projects/oriental-food-desktop.jpeg"
             image_2="/images/projects/oriental-food-mobile.jpeg"
