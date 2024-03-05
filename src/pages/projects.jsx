@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className="text-center bg-white">
       <Head>
-        <title>Projects</title>
+        <title>Projetos</title>
       </Head>
       <Header />
       <Main>

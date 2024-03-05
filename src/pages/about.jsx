@@ -15,7 +15,7 @@ export default function About() {
   return (
     <div className="text-center bg-white">
       <Head>
-        <title>About</title>
+        <title>Sobre Mim</title>
       </Head>
       <Header />
       <Main>

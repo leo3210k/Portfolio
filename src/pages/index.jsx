@@ -16,7 +16,7 @@ export default function Index() {
   return (
     <div className="text-center bg-white">
       <Head>
-        <title>Home Page</title>
+        <title>Página Inicial</title>
       </Head>
       <Header />
       <Main>
