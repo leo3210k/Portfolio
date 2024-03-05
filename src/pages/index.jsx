@@ -23,7 +23,7 @@ export default function Index() {
         <div className="mx-auto flex flex-col md:flex-row sm:justify-center lg:justify-around items-center gap-y-7 mt-10 md:mt-80 lg:mt-48 xl:mt-24 mb-10 md:mb-0">
           <Image src={profile} className="w-9/12 md:hidden lg:block lg:w-4/12 h-auto" alt="profile"/>
           <div className="sm:w-11/12 lg:w-5/12 flex flex-col lg:items-start">
-            <AnimatedText text="Concretizando Sonhos com Programação."
+            <AnimatedText text="Dando Vida às Ideias com Código."
             className="text-4xl sm:text-6xl xl:text-7xl sm:text-center lg:text-left font-bold tracking-tight text-gray-900 "/>
             <p className="mt-6 text-base sm:text-lg sm:text-center lg:text-left sm:leading-8 text-gray-600">
             Como um desenvolvedor front-end qualificado, me dedico a transformar ideias em aplicações web inovadoras. 
