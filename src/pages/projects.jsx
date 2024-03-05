@@ -17,7 +17,7 @@ export default function Projects() {
       <Header />
       <Main>
         <div className="px-10 pt-40 flex flex-col justify-center items-center">
-          <AnimatedText text="A imaginação supera o conhecimento!"
+          <AnimatedText text="Construindo Pontes entre Ideias e Inovação!"
           className="lg:ps-36 lg:pe-36 md:pb-10 lg:pb-20 text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
             <Project title="Oriental Food" description="Um site para um restaurante de comida oriental" 
