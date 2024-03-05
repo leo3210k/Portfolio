@@ -31,10 +31,10 @@ export default function Index() {
             </p>
             <div className="mt-6 sm:mt-10 flex items-center justify-center gap-x-6">
               <Link href="/cv/cv.pdf" locale={false} target={"_blank"} className="flex items-center gap-x-2 rounded-lg bg-indigo-600 px-4 py-2 md:px-7 md:py-3 text-lg md:text-xl font-medium text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                Resume
+                Currículo
                 <ExternalLink alt="profile"/>
               </Link>
-              <Link href="mailto:leocoelho.pi@gmail.com" target={"_blank"} className="text-lg md:text-xl leading-6 text-gray-900 underline underline-offset-1">Contact</Link>
+              <Link href="mailto:leocoelho.pi@gmail.com" target={"_blank"} className="text-lg md:text-xl leading-6 text-gray-900 underline underline-offset-1">Contato</Link>
             </div>
           </div>
         </div>
