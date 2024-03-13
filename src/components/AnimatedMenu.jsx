@@ -1,7 +1,7 @@
 import { useAnimate, stagger } from "framer-motion";
 import { useEffect } from "react";
 
-export default function animatedMenu(isOpen) {
+export default function AnimatedMenu(isOpen) {
   const [scope, animate] = useAnimate();
 
   useEffect(() => {
