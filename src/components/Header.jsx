@@ -34,13 +34,13 @@ export default function Header() {
         </div>
         <div className="hidden gap-x-8 lg:flex lg:justify-end flex-wrap">
           <Link href="https://github.com/leo3210k" target={"_blank"}>
-            <Github className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
+            <Github className="w-7 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="https://www.linkedin.com/in/leonardo-coêlho-9599b9200" target={"_blank"}>
-            <Linkedin className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
+            <Linkedin className="w-7 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
           <Link href="https://www.instagram.com/leocoelho.pi/" target={"_blank"}>
-            <Instagram_1 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
+            <Instagram_1 className="w-7 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
         </div>
       </nav>
