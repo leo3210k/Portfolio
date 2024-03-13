@@ -42,12 +42,6 @@ export default function Header() {
           <Link href="/" target={"_blank"}>
             <Instagram_1 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
-            <Twitter className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
-          </Link>
-          <Link href="/" target={"_blank"}>
-            <Pinterest className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
-          </Link>
         </div>
       </nav>
     </header>
