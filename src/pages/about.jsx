@@ -26,18 +26,20 @@ export default function About() {
             <div className="w-12/12 md:w-4/12 order-last md:order-none">
               <h2 className="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAFIA</h2>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                Olá, sou Leo, desenvolvedor web e designer UI/UX apaixonado por criar designs bonitos, funcionais e
-                e experiências digitais centradas no usuário. Com 4 anos de experiência na área. Estou sempre em busca de novidades e
-                formas inovadoras de dar vida às visões dos meus clientes.
+                Olá! Sou Leo, um apaixonado desenvolvedor web com uma missão clara: criar experiências digitais excepcionais através de código limpo, 
+                estrutura sólida e um profundo foco no usuário.
               </p>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                Acredito que design é mais do que apenas fazer as coisas parecerem bonitas – é resolver problemas e criar
-                experiências intuitivas e agradáveis ​​para os usuários.
+                Com uma vasta experiência em JavaScript e frameworks modernos como React, Vue e Next.js, desenvolvi uma habilidade refinada em traduzir conceitos e ideias em interfaces intuitivas e eficazes. Minha abordagem centrada no usuário não se limita apenas ao design, 
+                mas permeia todo o processo de desenvolvimento, desde a concepção até a entrega final.
               </p>
               <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
-                Quer esteja trabalhando em um site, aplicativo móvel ou outro produto digital, trago meu compromisso com a excelência em design
-                e pensamento centrado no usuário para cada projeto em que trabalho. Estou ansioso pela oportunidade de trazer minhas habilidades e
-                paixão pelo seu próximo projeto.
+                Ao navegar pelo meu portfólio, você encontrará uma variedade de projetos que ilustram minha paixão pelo design limpo, pela funcionalidade intuitiva e pela experiência do usuário em primeiro lugar. Estou sempre pronto para enfrentar novos desafios e adoro colaborar com clientes que 
+                compartilham minha visão de excelência digital.
+              </p>
+              <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
+                Se você está procurando um desenvolvedor web comprometido com a qualidade, a inovação e a satisfação do cliente, não procure mais. Estou aqui para transformar 
+                suas ideias em realidade digital. Vamos criar algo incrível juntos!
               </p>
             </div>
             <div className="w-full md:w-5/12 xl:w-4/12 p-7 self-start rounded-2xl border-2 shadow-3xl">
