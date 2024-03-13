@@ -1,12 +1,12 @@
 import React from "react"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion"
 import { useRouter } from "next/router"
 
 export default function TransitionEffect() {
   const router = useRouter()
 
-  React.useEffect(() => {
+  useEffect(() => {
     router.replace(router.route, undefined, { shallow: true });
   }, [])
 
