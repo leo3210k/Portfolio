@@ -32,7 +32,7 @@ export default function Header() {
           <CustomLink href="/about" title="Sobre mim" text_color="text-gray-900" background="black" />
           <CustomLink href="/projects" title="Projetos" text_color="text-gray-900" background="black" />
         </div>
-        <div className="hidden gap-x-8 lg:flex lg:justify-end flex-wrap">
+        <div className="hidden gap-x-10 lg:flex lg:justify-end flex-wrap">
           <Link href="https://github.com/leo3210k" target={"_blank"}>
             <Github className="w-7 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
