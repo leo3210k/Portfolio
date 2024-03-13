@@ -31,11 +31,12 @@ export default function Skills() {
         <Skill name="Javascript" x="23vw" y="6vw"/>
         <Skill name="ReactJS" x="0vw" y="13vw"/>
         <Skill name="NextJS" x="-28vw" y="-15vw"/>
-        <Skill name="GatsbyJS" x="20vw" y="-14vw"/>
-        <Skill name="Web Design" x="32vw" y="-5vw"/>
-        <Skill name="Figma" x="0vw" y="-21vw"/>
-        <Skill name="Firebase" x="-25vw" y="18vw"/>
+        <Skill name="Vue" x="20vw" y="-14vw"/>
+        <Skill name="Mysql" x="32vw" y="-5vw"/>
+        <Skill name="Electron" x="0vw" y="-21vw"/>
+        <Skill name="Postgresql" x="-25vw" y="18vw"/>
         <Skill name="Tailwind CSS" x="18vw" y="18vw"/>
+        <Skill name="Bootstrap" x="-16vw" y="6vw"/>
       </div>
     </div>
   )
