@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import logo from '../../public/images/logos/Logo_2.png'
 import Link from 'next/link'
-import { Github, Instagram_1, Linkedin, Pinterest, Twitter } from './utils/Icons'
+import { Github, Instagram_1, Linkedin } from './utils/Icons'
 import { MenuToggle } from "./utils/MenuToggle";
 import Menu from './Menu'
 import AnimatedMenu from './AnimatedMenu'
