@@ -24,7 +24,7 @@ export default function About() {
           className="text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="mt-20 flex flex-col md:flex-row justify-around items-center gap-y-12">
             <div className="w-12/12 md:w-4/12 order-last md:order-none">
-              <h2 className="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAFIA</h2>
+              <h2 className="text-xl xl:text-2xl text-left font-bold leading-8 text-gray-600">BIOGRAFIA</h2>
               <p className="mt-4 text-base xl:text-md text-left leading-6 text-gray-600">
                 Olá! Sou Leo, um apaixonado desenvolvedor web com uma missão clara: criar experiências digitais excepcionais através de código limpo, 
                 estrutura sólida e um profundo foco no usuário.
