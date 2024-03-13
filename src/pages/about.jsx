@@ -45,22 +45,6 @@ export default function About() {
             <div className="w-full md:w-5/12 xl:w-4/12 p-7 self-start rounded-2xl border-2 shadow-3xl">
               <Image src={profile} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" className="w-full h-auto rounded-2xl bg-slate-950" alt="profile"/>
             </div>
-            {/* <div className="grow">
-              <dl className="h-full flex flex-col justify-between items-end text-center">
-                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                  <dt className="text-xl leading-7 text-gray-600">Satisfied Clients</dt>
-                  <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-7xl">44 +</dd>
-                </div>
-                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                  <dt className="text-xl leading-7 text-gray-600">Projects Completed</dt>
-                  <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-7xl">50+</dd>
-                </div>
-                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                  <dt className="text-xl leading-7 text-gray-600">Years Of Experience</dt>
-                  <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-7xl">4+</dd>
-                </div>
-              </dl>
-            </div> */}
           </div>
         </div>
         <Skills />
