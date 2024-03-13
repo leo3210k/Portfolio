@@ -25,19 +25,19 @@ export default function About() {
           <div className="mt-20 flex flex-col md:flex-row justify-around items-center gap-y-12">
             <div className="w-12/12 md:w-4/12 order-last md:order-none">
               <h2 className="text-xl xl:text-3xl text-left font-bold leading-8 text-gray-600">BIOGRAFIA</h2>
-              <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
+              <p className="mt-4 text-base xl:text-md text-left leading-6 text-gray-600">
                 Olá! Sou Leo, um apaixonado desenvolvedor web com uma missão clara: criar experiências digitais excepcionais através de código limpo, 
                 estrutura sólida e um profundo foco no usuário.
               </p>
-              <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
+              <p className="mt-4 text-base xl:text-md text-left leading-6 text-gray-600">
                 Com uma vasta experiência em JavaScript e frameworks modernos como React, Vue e Next.js, desenvolvi uma habilidade refinada em traduzir conceitos e ideias em interfaces intuitivas e eficazes. Minha abordagem centrada no usuário não se limita apenas ao design, 
                 mas permeia todo o processo de desenvolvimento, desde a concepção até a entrega final.
               </p>
-              <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
+              <p className="mt-4 text-base xl:text-md text-left leading-6 text-gray-600">
                 Ao navegar pelo meu portfólio, você encontrará uma variedade de projetos que ilustram minha paixão pelo design limpo, pela funcionalidade intuitiva e pela experiência do usuário em primeiro lugar. Estou sempre pronto para enfrentar novos desafios e adoro colaborar com clientes que 
                 compartilham minha visão de excelência digital.
               </p>
-              <p className="mt-4 text-base xl:text-lg text-left leading-6 text-gray-600">
+              <p className="mt-4 text-base xl:text-md text-left leading-6 text-gray-600">
                 Se você está procurando um desenvolvedor web comprometido com a qualidade, a inovação e a satisfação do cliente, não procure mais. Estou aqui para transformar 
                 suas ideias em realidade digital. Vamos criar algo incrível juntos!
               </p>
