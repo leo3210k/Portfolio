@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Github, Instagram_2, Linkedin, Pinterest, Twitter } from './Icons';
-import CustomLink from "./CustomLink";
+import { Github, Instagram_2, Linkedin, Pinterest, Twitter } from './utils/Icons';
+import CustomLink from "./utils/CustomLink";
 
 export default function Menu() {  
   return (

@@ -1,4 +1,4 @@
-import TransitionEffect from "./TransitionEffect";
+import TransitionEffect from "./utils/TransitionEffect";
 
 export default function Main({ children }) {
   return (

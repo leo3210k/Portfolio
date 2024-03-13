@@ -1,4 +1,4 @@
-import { Heart } from "./Icons";
+import { Heart } from "./utils/Icons";
 
 export default function Footer({ children }) {
   return (

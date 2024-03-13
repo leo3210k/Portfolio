@@ -3,7 +3,7 @@ import '../app/globals.css'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import Skills from '@/components/Skills'
-import AnimatedText from '@/components/AnimatedText'
+import AnimatedText from '@/components/utils/AnimatedText'
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
