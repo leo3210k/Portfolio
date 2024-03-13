@@ -33,13 +33,13 @@ export default function Header() {
           <CustomLink href="/projects" title="Projetos" text_color="text-gray-900" background="black" />
         </div>
         <div className="hidden gap-x-8 lg:flex lg:justify-end flex-wrap">
-          <Link href="/" target={"_blank"}>
+          <Link href="https://github.com/leo3210k" target={"_blank"}>
             <Github className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
+          <Link href="https://www.linkedin.com/in/leonardo-coêlho-9599b9200" target={"_blank"}>
             <Linkedin className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" target={"_blank"}>
+          <Link href="https://www.instagram.com/leocoelho.pi/" target={"_blank"}>
             <Instagram_1 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
         </div>
