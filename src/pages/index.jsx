@@ -20,7 +20,7 @@ export default function Index() {
       </Head>
       <Header />
       <Main>
-        <div className="mx-auto flex flex-col md:flex-row sm:justify-center lg:justify-around items-center gap-y-7 mt-10 md:mt-80 lg:mt-48 xl:mt-24 mb-10 md:mb-0">
+        <div className="mx-auto flex flex-col md:flex-row sm:justify-center lg:justify-around items-center gap-y-7 mt-9 md:mt-72 lg:mt-44 xl:mt-20 mb-10 md:mb-0">
           <Image src={profile} className="w-9/12 md:hidden lg:block lg:w-4/12 h-auto" alt="profile"/>
           <div className="sm:w-11/12 lg:w-5/12 flex flex-col lg:items-start">
             <AnimatedText text="Dando Vida às Ideias com Código."
