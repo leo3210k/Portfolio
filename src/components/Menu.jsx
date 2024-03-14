@@ -10,7 +10,7 @@ export default function Menu() {
         <CustomLink href="/about" title="Sobre mim" className="mx-4 block px-3 py-2 text-base font-semibold leading-7 p-2 bg-white rounded-xl" text_color="text-transparent bg-clip-text bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]" background="gradient-to-tr from-[#ff80b5] to-[#9089fc]" />
         <CustomLink href="/projects" title="Projetos" className="mx-4 block px-3 py-2 text-base font-semibold leading-7 p-2 bg-white rounded-xl" text_color="text-transparent bg-clip-text bg-gradient-to-tr from-[#ff80b5] to-[#9089fc]" background="gradient-to-tr from-[#ff80b5] to-[#9089fc]" />
       </ul>
-      <div className="mx-4 flex self-center gap-x-8 gap-y-4 flex-wrap">
+      <div className="mx-4 flex justify-around self-center gap-x-8 gap-y-4 flex-wrap">
           <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Github className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
