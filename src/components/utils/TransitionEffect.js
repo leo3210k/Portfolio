@@ -8,7 +8,7 @@ export default function TransitionEffect() {
 
   useEffect(() => {
     router.replace(router.route, undefined, { shallow: true });
-  }, [])
+  }, [router.asPath])
 
   const [isThereQuery, setQuery] = useState(router.query.name);
 
