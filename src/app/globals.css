@@ -33,7 +33,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 400px;
+  width: 100vw;
   padding-top: 100px;
   transform: translateX(100%);
   will-change: transform;
@@ -77,3 +77,9 @@ button.button {
     text-wrap: balance;
   }
 }
+
+@media (min-width: 410px) { 
+  .menu {
+    width: 400px;
+  }
+} 
