@@ -20,12 +20,6 @@ export default function Menu() {
           <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
             <Instagram_2 className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
           </Link>
-          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
-            <Twitter className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
-          </Link>
-          <Link href="/" className="p-2 rounded-xl bg-white" target={"_blank"}>
-            <Pinterest className="w-6 h-auto hover:scale-125 transition duration-200" alt="logo"/>
-          </Link>
         </div>
     </nav> 
   )
