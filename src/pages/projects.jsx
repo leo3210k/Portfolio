@@ -16,7 +16,7 @@ export default function Projects() {
       </Head>
       <Header />
       <Main>
-        <div className="px-10 pt-40 flex flex-col justify-center items-center">
+        <div className="px-10 pt-20 sm:pt-28 lg:pt-40 flex flex-col justify-center items-center">
           <AnimatedText text="Construindo Pontes entre Ideias e Inovação!"
           className="lg:ps-36 lg:pe-36 md:pb-10 lg:pb-20 text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
