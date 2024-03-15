@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Main({ title, description, technologies, image_1, image_2, demo="", github="", order=false }) {
   return (
-    <motion.div className="h-[70vh] xs:h-[80vh] sm:h-[90vh] md:h-screen flex flex-col lg:flex-row justify-evenly items-center"
+    <motion.div className="h-[70vh] xs:h-[80vh] sm:h-[90vh] md:h-screen flex flex-col lg:flex-row justify-evenly items-center landscape:my-40"
     initial={{ opacity: 0, y: 50 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ delay: 1, duration: 1 }}
