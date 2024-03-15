@@ -6,7 +6,7 @@ import AnimatedText from '@/components/utils/AnimatedText'
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import profile from '../../public/images/profile/Leonardo_1.png'
+import profile from '../../public/images/profile/Leonardo_homepage.png'
 import { ExternalLink } from '../components/utils/Icons'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
