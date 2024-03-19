@@ -27,14 +27,14 @@ export default function Projects() {
             demo="https://oriental-food.vercel.app/" 
             github="https://github.com/leo3210k/Oriental_Food" 
             />
-            <Project title="Studio Ghibli" description="A minecraft themed login page" 
+            <Project title="Studio Ghibli" description='Uma página de "Assistir agora" do Studio Ghibli'
             technologies="Javascript, Html, Css."
             image_1="/images/projects/studio-ghibli-desktop.jpeg"
             image_2="/images/projects/studio-ghibli-mobile.jpeg"
             demo="https://studio-ghibli-coral.vercel.app/" github="https://github.com/leo3210k/StudioGhibli" 
             order={true}
             />
-            <Project title="Log Mine" description="A minecraft themed login page" 
+            <Project title="Log Mine" description="Uma página de login com tema de Minecraft" 
             technologies="Javascript, Html, Css."
             image_1="/images/projects/log-mine-desktop.jpeg"
             image_2="/images/projects/log-mine-mobile.jpeg"
