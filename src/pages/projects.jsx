@@ -27,13 +27,13 @@ export default function Projects() {
             demo="https://oriental-food.vercel.app/" 
             github="https://github.com/leo3210k/Oriental_Food" 
             />
-            {/* <Project title="Podcasts" description="No auth needed podcasts web app" 
-            technologies="React, Typescript, Next.js, Styled Jsx, SWR."
-            image_1="/images/projects/oriental-food-desktop.jpeg"
-            image_2="/images/projects/oriental-food-mobile.jpeg"
-            demo="link" github="link" 
+            <Project title="Log Mine" description="A minecraft themed login page" 
+            technologies="Javascript, Html, Css."
+            image_1="/images/projects/log-mine-desktop.jpeg"
+            image_2="/images/projects/log-mine-mobile.jpeg"
+            demo="https://log-mine.vercel.app/" github="https://github.com/leo3210k/LogMine" 
             order={true}
-            /> */}
+            />
           </div>
         </div>
       </Main>
