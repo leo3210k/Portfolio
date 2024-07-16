@@ -34,13 +34,6 @@ export default function Projects() {
             demo="https://studio-ghibli-coral.vercel.app/" github="https://github.com/leo3210k/StudioGhibli" 
             order={true}
             />
-            <Project title="Log Mine" description="Uma página de login com tema de Minecraft" 
-            technologies="Javascript, Html, Css."
-            image_1="/images/projects/log-mine-desktop.jpeg"
-            image_2="/images/projects/log-mine-mobile.jpeg"
-            demo="https://log-mine.vercel.app/" github="https://github.com/leo3210k/LogMine" 
-            order={false}
-            />
           </div>
         </div>
       </Main>
