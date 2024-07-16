@@ -1,5 +1,7 @@
 import '../app/globals.css'
 
+import { Analytics } from "@vercel/analytics/react"
+
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import AnimatedText from '@/components/utils/AnimatedText'
@@ -40,6 +42,7 @@ export default function Index() {
         </div>
       </Main>
       <Footer />  
+      <Analytics/>
     </div>
   )
 }
