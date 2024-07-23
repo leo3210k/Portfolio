@@ -20,19 +20,25 @@ export default function Projects() {
           <AnimatedText text="Construindo Pontes entre Ideias e Inovação!"
           className="lg:ps-36 lg:pe-36 md:pb-10 lg:pb-20 text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
+            <Project title="Ramov" description='Um site para uma empresa de soluções em engenharia mecânica'
+            technologies="React, Typescript, TailwindCss."
+            image_1="/images/projects/ramov-desktop.jpeg"
+            image_2="/images/projects/ramov-mobile.jpeg"
+            demo="https://ramoveng.com.br/" github="https://github.com/leo3210k/Ramov" 
+            />
             <Project title="Oriental Food" description="Um site para um restaurante de comida oriental" 
             technologies="Html, Css."
             image_1="/images/projects/oriental-food-desktop.jpeg"
             image_2="/images/projects/oriental-food-mobile.jpeg"
             demo="https://oriental-food.vercel.app/" 
             github="https://github.com/leo3210k/Oriental_Food" 
+            order={true}
             />
             <Project title="Studio Ghibli" description='Uma página de "Assistir agora" do Studio Ghibli'
             technologies="Javascript, Html, Css."
             image_1="/images/projects/studio-ghibli-desktop.jpeg"
             image_2="/images/projects/studio-ghibli-mobile.jpeg"
             demo="https://studio-ghibli-coral.vercel.app/" github="https://github.com/leo3210k/StudioGhibli" 
-            order={true}
             />
           </div>
         </div>
