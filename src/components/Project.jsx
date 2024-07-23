@@ -20,9 +20,9 @@ export default function Main({ title, description, technologies, image_1, image_
         <span className="mt-2 italic text-center md:text-justify font-normal text-gray-600">{ technologies }</span>
         <div className="mt-5 flex gap-x-6">
           <Link href={github} target="_blank">
-            <Image src={icon} className="w-10" alt="icon"/>
+            <Image src={icon} className="w-10 hover:scale-110 transition duration-200" alt="icon"/>
           </Link>
-          <Link href={demo} target="_blank" className="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 xs:text-lg text-center font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline">
+          <Link href={demo} target="_blank" className="flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 xs:text-lg text-center font-semibold text-white shadow-sm hover:scale-110 transition duration-200 focus-visible:outline">
             Visitar Projeto
           </Link>
         </div>
