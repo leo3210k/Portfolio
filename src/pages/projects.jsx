@@ -21,7 +21,7 @@ export default function Projects() {
           className="lg:ps-36 lg:pe-36 md:pb-10 lg:pb-20 text-5xl xs:text-7xl lg:text-8xl text-center font-bold tracking-tight text-gray-900"/>
           <div className="w-full">
             <Project title="Ramov" description='Um site para uma empresa de soluções em engenharia mecânica'
-            technologies="React, Typescript, TailwindCss."
+            technologies="Typescript, React, TailwindCss."
             image_1="/images/projects/ramov-desktop.jpeg"
             image_2="/images/projects/ramov-mobile.jpeg"
             demo="https://ramoveng.com.br/" github="https://github.com/leo3210k/Ramov" 
