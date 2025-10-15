@@ -24,7 +24,7 @@ export default function Projects() {
             technologies="Typescript, React, TailwindCss."
             image_1="/images/projects/ramov-desktop.jpeg"
             image_2="/images/projects/ramov-mobile.jpeg"
-            demo="https://ramoveng.com.br/" github="https://github.com/leo3210k/Ramov" 
+            demo="https://ramov.vercel.app/" github="https://github.com/leo3210k/Ramov" 
             />
             <Project title="Jogo da Forca" description='Um projeto de jogo da forca'
             technologies="Typescript, React, TailwindCss, Framer motion, Shadcn/ui."
